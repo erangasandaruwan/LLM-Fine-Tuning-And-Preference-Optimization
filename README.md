@@ -31,7 +31,7 @@ The final output is not simply a trained model. The project delivers a complete 
 - supervised fine-tuning,
 - parameter-efficient training,
 - preference-data construction,
-- DPO,
+- Direct Preference Optimization (DPO),
 - evaluation,
 - experiment tracking,
 - model versioning,
