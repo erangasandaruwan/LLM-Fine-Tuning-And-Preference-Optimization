@@ -24,29 +24,29 @@ We can proceed with two training stages:
 
 The final output is not simply a trained model. The project delivers a complete engineering workflow covering:
 
-- problem definition,
-- baseline benchmarking,
-- dataset design,
-- data validation,
-- supervised fine-tuning,
-- parameter-efficient training,
-- preference-data construction,
+- Problem definition,
+- Baseline benchmarking,
+- Dataset design,
+- Data validation,
+- Supervised fine-tuning,
+- Parameter-efficient training,
+- Preference-data construction,
 - Direct Preference Optimization (DPO),
-- evaluation,
-- experiment tracking,
-- model versioning,
-- deployment,
-- monitoring,
-- failure analysis,
-- and a technical report containing before/after evidence.
+- Evaluation,
+- Experiment tracking,
+- Model versioning,
+- Deployment,
+- Monitoring,
+- Failure analysis,
+- and a Technical report containing before/after evidence.
 
 ---
 
 # 2. Why LLM Fine-Tuning & Preference Optimization Matters
 
-Many AI portfolio projects stop at prompt engineering or Retrieval-Augmented Generation. Fine-tuning demonstrates a different class of capability: the ability to modify model behavior through controlled post-training.
+Many AI projects stop at prompt engineering or Retrieval-Augmented Generation. Fine-tuning a different class of capability: the ability to modify model behavior through controlled post-training.
 
-A production-grade fine-tuning project should answer the following questions:
+A production-grade fine-tuning approach should answer the following questions:
 
 - Why is fine-tuning needed?
 - What problem cannot be solved reliably enough through prompting alone?
@@ -62,11 +62,11 @@ A production-grade fine-tuning project should answer the following questions:
 - What failure cases remain?
 - Can the resulting model be deployed and monitored reliably?
 
-This project is therefore designed as an **end-to-end LLM post-training system**, rather than a notebook-only experiment.
+This application is therefore designed as an **end-to-end LLM post-training system**, rather than a notebook-only experiment.
 
 ---
 
-# 3. Recommended Project Use Case
+# 3. Suggested Project Use Case
 
 ## Primary Use Case: Structured JSON Extraction
 
