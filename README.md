@@ -17,7 +17,7 @@ Two particularly suitable task families are supported:
 
 These tasks are ideal because improvement can be measured objectively using metrics such as JSON validity, schema compliance, exact-match accuracy, function-selection accuracy, parameter accuracy, and refusal correctness.
 
-The project is implemented in two training stages:
+We can proceed with two training stages:
 
 - **Phase 1 — Supervised Fine-Tuning (SFT)** using LoRA or QLoRA
 - **Phase 2 — Preference Optimization** using Direct Preference Optimization (DPO)
@@ -42,7 +42,7 @@ The final output is not simply a trained model. The project delivers a complete 
 
 ---
 
-# 2. Why This Project Matters
+# 2. Why LLM Fine-Tuning & Preference Optimization Matters
 
 Many AI portfolio projects stop at prompt engineering or Retrieval-Augmented Generation. Fine-tuning demonstrates a different class of capability: the ability to modify model behavior through controlled post-training.
 
